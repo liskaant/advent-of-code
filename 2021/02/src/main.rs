@@ -1,7 +1,6 @@
 use std::io::{self, BufRead};
 use std::str::FromStr;
 
-
 #[derive(Debug)]
 enum CommandType {
 	Forward,
